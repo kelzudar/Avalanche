@@ -1,0 +1,86 @@
+body{
+	background-color: #151515;
+	font-family: 'Merriweather', serif;
+	margin: 0px;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+/* Header og Menu*/ 
+header{
+	position: fixed;
+	background-color: #151515;
+	border-top: 5px solid #009EFF;
+	height: 150px;
+	width: 100%
+}
+
+.logo{
+	padding: 8px 10px 0 0;
+	margin: 10px 0;
+}
+
+nav ul{
+	height: 15px;
+	padding: 20px 5px 0 0;
+	margin: 65px 0;
+}
+
+li{
+	line-height: 15px;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 15px;
+}
+
+nav ul li:hover{
+	background-color: #92C6D5;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #009EFF;
+}
+
+/* Main section */ 
+
+.container{
+	width: 1280px;
+	margin: 0px auto;
+}
+
+section{
+	background-color: #BFBFBF;
+}
+
+.introbillede{
+	margin-top: 150px;
+}
+
+.text{
+	width: 600px;
+	padding: 20px;
+	margin: 0;
+}
+
+.produkt{
+	width: 100%;
+}
+
+.info-box{
+	
+	width: 100%;
+}
+
+.billedebox{
+	width: 600px;
+	padding: 20px;
+}
