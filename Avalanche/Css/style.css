@@ -41,10 +41,15 @@ li{
 nav ul li{
 	display: inline-block;
 	padding: 15px;
+	color: #009EFF;
 }
 
 nav ul li:hover{
 	background-color: #92C6D5;
+}
+
+nav ul li:visited{
+	color: #009EFF;
 }
 
 nav ul li a{
@@ -96,13 +101,11 @@ section{
 
 .info-box{
 	width: 49%;
-	padding-left: 10px;
 }
 
 .info-box-produkt{
 	width: 100%;
 	margin: 0 auto;
-	padding-left: 5em;
 }
 
 .billedebox{
@@ -112,8 +115,12 @@ section{
 
 .produkt-billede{
 	width: 50%;
-	float: left;
 	padding: 20px 0 20px;
+	float: left;
+}
+
+.produkt-billede img{
+	width: 100%;
 }
 
 .img-container{
@@ -176,6 +183,3 @@ footer a:visited{
 	color: #009eff;
 }
 
-@media and screen(max-width: 1178px){
-	
-}
