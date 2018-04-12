@@ -13,38 +13,82 @@ body{
 	float: right;
 }
 
+.mover{
+	height: 90px;
+}
+
 /* Header og Menu*/ 
 header{
 	position: fixed;
 	background-color: #151515;
 	border-top: 5px solid #009EFF;
 	border-bottom: 2px solid #009EFF;
-	height: 150px;
+	height: 9.4em;
 	width: 100%
 }
 
 .logo{
-	padding: 8px 10px 0 0;
-	margin: 10px 0;
+	padding: .4em 0 0 0;
+	margin: 1.1em 0;
 }
 
-nav ul{
-	height: 15px;
-	padding: 20px 5px 0 0;
-	margin: 65px 0;
+nav{
+	height: 9.4em;
 }
 
-li{
-	line-height: 15px;
+.nav{
+	text-align: right;
+	height: 70px;
+	line-height: 70px;
 }
 
-nav ul li{
-	display: inline-block;
-	padding: 15px;
+.menu{
+	margin: 0 0 0 0;
+}
+
+.menu a{
+	clear: right;
+	text-decoration: none;
 	color: #009EFF;
+	margin: 0 0 0 0px;
+	line-height: 70px;
+	padding: 10px 10px 15px 10px;
 }
 
-nav ul li:hover{
+.menu a:hover{
+	background-color: #92C6D5; 
+}
+
+label{
+	margin: 0 10px 0 0;
+	font-size: 26px;
+	line-height: 70px;
+	display: none;
+	width: 110px;
+	float: right;
+}
+
+#toggle{
+	display: none;
+}
+
+/*nav ul{
+	height: 3em;
+	padding: 1.3em 0 0 0;
+	margin: 4.1em 0;
+}*/
+
+/*li{
+	line-height: 2.3em;
+}*/
+
+/*nav ul li{
+	display: inline-block;
+	padding: 0.9em;
+	color: #009EFF;
+}*/
+
+/*nav ul li:hover{
 	background-color: #92C6D5;
 }
 
@@ -55,8 +99,8 @@ nav ul li:visited{
 nav ul li a{
 	text-decoration: none;
 	color: #009EFF;
-	padding: 15px;
-}
+	padding: 2em;
+}*/
 
 /* Main section */ 
 
@@ -182,4 +226,46 @@ footer a{
 footer a:visited{
 	color: #009eff;
 }
+
+@media only screen and (max-width: 550px) {
+	label{
+		display: block;
+		cursor: pointer;
+	}
+	
+	.menu{
+		text-align: center;
+		width: 50%;
+		display: none;
+		float: right;
+		background-color: #151515; 
+		margin: -8px -35px 0 0;
+	}
+	
+	.menu a{
+		display: block;
+		margin: 0;
+	}
+	
+	#toggle:checked + .menu{
+		display: block;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
