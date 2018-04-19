@@ -1,0 +1,375 @@
+body{
+	background-color: #151515;
+	font-family: 'Merriweather', serif;
+	margin: 0px;
+	color: #009eff;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+.mover{
+	width: 100%;
+	height: 89px;
+}
+
+h1{
+	padding: 0;
+	margin: 0;
+}
+
+/* Header og Menu*/ 
+header{
+	position: fixed;
+	background-color: #151515;
+	border-top: 5px solid #009EFF;
+	border-bottom: 2px solid #009EFF;
+	height: 9.4em;
+	width: 100%
+}
+
+.logo{
+	padding: .4em 0 0 10px;
+	margin: 1.1em 0;
+}
+
+nav{
+	height: 9.4em;
+}
+
+.nav{
+	text-align: right;
+	height: 70px;
+	line-height: 70px;
+}
+
+.menu{
+	margin: 0 0 0 0;
+}
+
+.menu a{
+	clear: right;
+	text-decoration: none;
+	color: #009EFF;
+	margin: 0 0 0 0px;
+	line-height: 74px;
+	padding: 10px 10px 15px 10px;
+}
+
+.menu a:hover{
+	background-color: #92C6D5; 
+}
+
+label{
+	margin: 0 10px 0 0;
+	font-size: 26px;
+	line-height: 70px;
+	display: none;
+	width: 110px;
+	float: right;
+}
+
+#toggle{
+	display: none;
+}
+
+/* Main section */ 
+
+.container{
+	max-width: 1280px;
+	margin: 0px auto;
+}
+
+section{
+	width: 100%;
+}
+
+
+.introbillede{
+	margin-top: 150px;
+	width: 100%;
+	border-bottom: 2px solid #92C6D5;
+}
+
+.forsidebillede{
+	margin-top: 150px;
+	width: 100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+	width: 90%;
+	padding: 20px 0 20px;
+	margin: 0;
+}
+
+.produkt-text{
+	width: 49%;
+	float: left;
+	padding: 20px 20px 20px 10px;
+	margin: 0;
+}
+
+.produkt{
+	width: 100%;
+}
+
+.info-box{
+	width: 47%;
+	padding-left: 10px;
+}
+
+.info-box-produkt{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.billedebox{
+	width: 100%;
+	padding: 20px 0 20px;
+}
+
+.produkt-billede{
+	width: 47%;
+	padding: 20px 10px 20px 0;
+	float: right;
+}
+
+.produkt-billede img{
+	width: 100%;
+}
+
+.img-container{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.profil{
+	width: 25%;
+	padding: 0 20px;
+	margin-bottom: 10px;
+}
+
+.profil-billede{
+	width: 100%;
+}
+
+
+/*Footer*/
+footer{
+	width: 100%;
+	background-color: #151515;
+	border-top: 2px solid #009EFF;
+	border-bottom: 5px solid #009EFF;
+}
+
+.information{
+	width: 70%;
+}
+
+.socialmedia{
+	width: 25%;
+	font-size: 30px;
+	color: #009eff;
+	padding-top: 5px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+footer ul{
+	list-style: none;
+	padding: 0 0 0 10px;
+	color: #009eff;
+}
+
+footer ul li{
+	display: inline-block;
+	padding-right: 15px;
+}
+
+.bliz-logo{
+	width: 40px;
+}
+
+footer a{
+	text-decoration: none;
+	color: #009eff;
+}
+
+footer a:visited{
+	color: #009eff;
+}
+
+@media only screen and (max-width: 1100px){
+	
+	.logo{
+	padding: .4em 0 0 10px;
+	margin: 1.1em 0;
+}
+	
+	.produkt-text h1{
+		width: 100%;
+		padding-bottom: 15px;
+	}
+	
+	.produkt-text p{
+		float: left;
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.produkt-text{
+		width: 45%;
+		float: left;
+		padding: 20px 10px 20px 20px;
+		margin: 0;
+	}
+	
+	.produkt-billede{
+		width: 40%;
+		padding: 20px 20px 10px;
+		float: right;
+	}
+	
+	.produkt-billede img{
+		width: 100%;
+	}
+	
+	.img-container{
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.profil-billede{
+		width: 60%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	p{
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	footer ul{
+		list-style: none;
+		padding: 0 0 0 10px;
+		color: #009eff;
+	}
+	
+}
+
+@media only screen and (max-width: 550px) {
+	/*Menu baren den lukkede del*/
+	label{
+		display: block;
+		cursor: pointer;
+		padding: 0;
+	}
+	
+	.menu{
+		text-align: center;
+		width: 50%;
+		display: none;
+		float: right;
+		background-color: #151515; 
+		margin: -0.55em 0 0 0;
+	}
+	
+	.menu a{
+		display: block;
+		margin: 0;
+	}
+	
+	#toggle:checked + .menu{
+		display: block;
+	}
+	
+	/*Tekst boksene*/
+	.info-box{
+		padding-left: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	 /*Forside profil billeder*/
+	.profil{
+		width: 85%;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	
+		.produkt-text h1{
+		width: 100%;
+		padding-bottom: 15px;
+		margin-left: 10px;
+		padding-top: 20px;
+	}
+	
+	.produkt-text p{
+		float: left;
+		width: 100%;
+		margin-left: 10px;
+	}
+	
+	.produkt-text{
+		width: 95%;
+		padding: 0;
+	}
+	
+	.produkt-billede{
+		width: 95%;
+		padding: 10px 0 0;
+	}
+	
+	.billedebox img{
+		width: 95%;
+		padding: 0;
+	}
+	
+	/*Footer*/
+	footer ul li{
+		display: block;
+		padding-right: 15px;
+		padding-bottom: 5px;
+		padding-left: 10px;
+	}
+	
+	.socialmedia{
+		width: 20%;
+		font-size: 30px;
+		color: #009eff;
+		padding-top: 5px;
+		padding-right: 10px;
+		text-align: right;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
